@@ -1,8 +1,9 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "WANDA Coffee",
+  title: "WANDA",
   description: "Coffee and Joy",
 };
 
@@ -12,9 +13,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/favicon.png" sizes="any" />
       </head>
-      <body className="bg-gray-50 mulish">
+      <body className="bg-orange-50 mulish">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

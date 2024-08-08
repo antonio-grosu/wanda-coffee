@@ -6,43 +6,46 @@ import { useState } from "react";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   return (
-    <nav className="z-10 ">
-      <div className="text-yellow-950  fixed w-full top-0 px-4 md:px-8 lg:px-12 py-2 md:py-3  flex items-center justify-between md:justify-center gap-8 shadow-sm  ">
+    <nav className="">
+      <div className=" text-yellow-950 bg-orange-50 fixed w-full top-0 px-4 md:px-8 lg:px-12 py-2 md:py-3  flex items-center justify-between md:justify-center gap-8 shadow-sm  ">
         <Link href="/" className="hidden md:block">
           Acasa
         </Link>
-        <Link href="/despre" className="hidden md:block">
-          Despre
-        </Link>
-        <Image
-          src="/logo.svg"
-          width={80}
-          height={80}
-          className="w-2/12 md:w-1/12"
-        />
         <Link href="/produse" className="hidden md:block">
           Produse
+        </Link>
+
+        <div className="md:w-1/12 w-2/12 flex md:justify-center justify-start">
+          <Image
+            src="/Logo.svg"
+            width={80}
+            height={80}
+            className=" md:w-7/12 w-9/12"
+          />
+        </div>
+        <Link href="/despre" className="hidden md:block">
+          Despre
         </Link>
         <Link href="/locatie " className="hidden md:block">
           Locatie
         </Link>
+
         <svg
           onClick={() => {
             setMenu(!menu);
           }}
-          className="w-8 h-8 text-yellow-950 md:hidden"
+          className="w-6 h-6 text-blue-950 md:hidden"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
-          fill="none"
+          fill="currentColor"
           viewBox="0 0 24 24"
         >
           <path
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeWidth="2"
-            d="M5 7h14M5 12h14M5 17h14"
+            fill-rule="evenodd"
+            d="M4.857 3A1.857 1.857 0 0 0 3 4.857v4.286C3 10.169 3.831 11 4.857 11h4.286A1.857 1.857 0 0 0 11 9.143V4.857A1.857 1.857 0 0 0 9.143 3H4.857Zm10 0A1.857 1.857 0 0 0 13 4.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 21 9.143V4.857A1.857 1.857 0 0 0 19.143 3h-4.286Zm-10 10A1.857 1.857 0 0 0 3 14.857v4.286C3 20.169 3.831 21 4.857 21h4.286A1.857 1.857 0 0 0 11 19.143v-4.286A1.857 1.857 0 0 0 9.143 13H4.857Zm10 0A1.857 1.857 0 0 0 13 14.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 21 19.143v-4.286A1.857 1.857 0 0 0 19.143 13h-4.286Z"
+            clip-rule="evenodd"
           />
         </svg>
       </div>
@@ -56,24 +59,24 @@ const Navbar = () => {
             }}
           ></div>
           {/* divul maro */}
-          <div className="bg-yellow-950 w-9/12 px-2 py-4">
+          <div className="fixed top-0 right-0 h-screen  bg-orange-50 w-9/12 px-2 py-4">
             <Image
-              src="/logo.svg"
+              src="/Logo.svg"
               width={80}
               height={80}
               className="mx-auto w-3/12"
             />
             {/* primul div din meniu  */}
-            <p className="px-2 mt-16 text-sm uppercase tracking-widest text-white/50">
+            <p className="px-2 mt-16 text-sm uppercase tracking-widest text-yellow-950/50">
               PAGINI
             </p>
             <div className="mt-4 flex flex-col gap-8">
               <Link
                 href="/"
-                className="w-full text-white p-2 flex items-center justify-start gap-2"
+                className="w-full text-yellow-950 p-2 flex items-center justify-start gap-2"
               >
                 <svg
-                  className="w-6 h-6 text-white"
+                  className="w-6 h-6 text-yellow-950"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -90,28 +93,11 @@ const Navbar = () => {
                 Acasa
               </Link>
               <Link
-                href="/despre"
-                className="w-full text-white p-2 flex items-center justify-start gap-2"
-              >
-                <svg
-                  className="w-6 h-6 text-white"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 14h-2.722L11 20.278a5.511 5.511 0 0 1-.9.722H20a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1ZM9 3H4a1 1 0 0 0-1 1v13.5a3.5 3.5 0 1 0 7 0V4a1 1 0 0 0-1-1ZM6.5 18.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2ZM19.132 7.9 15.6 4.368a1 1 0 0 0-1.414 0L12 6.55v9.9l7.132-7.132a1 1 0 0 0 0-1.418Z" />
-                </svg>
-                Despre
-              </Link>
-              <Link
                 href="/produse"
-                className="w-full text-white p-2  flex items-center justify-start gap-2"
+                className="w-full text-yellow-950 p-2  flex items-center justify-start gap-2"
               >
                 <svg
-                  className="w-6 h-6 text-white"
+                  className="w-6 h-6 text-yellow-950"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -128,12 +114,30 @@ const Navbar = () => {
                 Produse
               </Link>
               <Link
+                href="/despre"
+                className="w-full text-yellow-950 p-2 flex items-center justify-start gap-2"
+              >
+                <svg
+                  className="w-6 h-6 text-yellow-950"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M20 14h-2.722L11 20.278a5.511 5.511 0 0 1-.9.722H20a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1ZM9 3H4a1 1 0 0 0-1 1v13.5a3.5 3.5 0 1 0 7 0V4a1 1 0 0 0-1-1ZM6.5 18.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2ZM19.132 7.9 15.6 4.368a1 1 0 0 0-1.414 0L12 6.55v9.9l7.132-7.132a1 1 0 0 0 0-1.418Z" />
+                </svg>
+                Despre
+              </Link>
+
+              <Link
                 href="/locatie"
-                className="w-full text-white p-2 flex items-center justify-start gap-2"
+                className="w-full text-yellow-950 p-2 flex items-center justify-start gap-2"
               >
                 {" "}
                 <svg
-                  className="w-6 h-6  text-white"
+                  className="w-6 h-6  text-yellow-950"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -151,7 +155,7 @@ const Navbar = () => {
               </Link>
             </div>
             {/* al doilea div din meniu  */}
-            <p className="px-2 mt-16 text-sm uppercase tracking-widest text-white/50">
+            <p className="px-2 mt-16 text-sm uppercase tracking-widest text-yellow-950/50">
               date de contact
             </p>
             <div className="mt-4 flex flex-col gap-8"></div>
