@@ -8,11 +8,12 @@ const Home_Second_Section = () => {
       </h1>
       <div className="mt-16 flex md:flex-row flex-col items-center justify-between gap-24">
         {/* div-ul cu poze */}
-        <div className="w-full  text-yellow-950 gap-4 flex justify-center md:justify-start">
+        <div className="w-full  text-yellow-950 gap-4  md:flex-row flex-col flex justify-center md:justify-start">
           <div className="md:w-3/12  p-1 ">
             <Image
-              src="/grid-portrait.svg"
-              className="object-cover rounded-md shadow-sm border-orange-100 border-2"
+              unoptimized
+              src="/grid-portrait.png"
+              className="object-cover rounded-md shadow-md"
               alt=""
               width={2200}
               height={4600}
@@ -20,15 +21,17 @@ const Home_Second_Section = () => {
           </div>
           <div className="flex flex-col md:w-5/12 gap-4  justify-between">
             <Image
-              className="w-full rounded-md shadow-sm border-orange-100 border-2"
-              src="/grid-l-1.svg"
+              unoptimized
+              className="w-full rounded-md shadow-md"
+              src="/grid-l-1.png"
               alt=""
               width={4096}
               height={2200}
             />
             <Image
-              className="w-full rounded-md shadow-sm border-orange-100 border-2"
-              src="/grid-l-2.svg"
+              unoptimized
+              className="w-full rounded-md shadow-md"
+              src="/grid-l-2.png"
               alt=""
               width={4096}
               height={2200}

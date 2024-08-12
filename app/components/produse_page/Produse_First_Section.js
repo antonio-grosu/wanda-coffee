@@ -15,7 +15,8 @@ const Produse_First_Section = () => {
           <div>
             <Image
               src="/espresso.gif"
-              className="w-full rounded-2xl border-2 border-orange-100 shadow-sm"
+              unoptimized
+              className="w-full rounded-2xl  shadow-md"
               width={400}
               height={400}
               alt="Video Espresso"
@@ -23,8 +24,9 @@ const Produse_First_Section = () => {
           </div>
           <div>
             <Image
+              unoptimized
               src="/coca.gif"
-              className="w-full rounded-2xl border-2 shadow-sm border-orange-100"
+              className="w-full rounded-2xl shadow-md"
               width={400}
               height={400}
               alt="Video Framantare Coca"
@@ -45,7 +47,7 @@ const Produse_First_Section = () => {
         <div>
           <Image
             src="/espresso.gif"
-            className="w-full rounded-md border-2 border-orange-100 shadow-sm"
+            className="w-full rounded-md shadow-md"
             width={400}
             height={400}
             alt="Video Espresso"
@@ -54,7 +56,7 @@ const Produse_First_Section = () => {
         <div>
           <Image
             src="/coca.gif"
-            className="w-full rounded-md border-2 shadow-sm border-orange-100"
+            className="w-full rounded-md shadow-md"
             width={400}
             height={400}
             alt="Video Framantare Coca"

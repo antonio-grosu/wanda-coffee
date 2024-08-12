@@ -4,7 +4,13 @@ const Footer = () => {
   return (
     <footer className="w-full bg-orange-50 px-4 md:px-8 py-12 flex md:flex-row flex-col items-top justify-between">
       <div className="flex flex-col md:w-3/12">
-        <Image src="/Logo.svg" width={80} height={80} className="w-3/12" />
+        <Image
+          src="/Logo.png"
+          alt="Logo"
+          width={80}
+          height={80}
+          className="w-3/12"
+        />
         <h3 className="text-xl font-bold text-yellow-950 mt-2">
           Coffee and Joy
         </h3>

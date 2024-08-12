@@ -12,9 +12,10 @@ const Home_Hero = () => {
         {/* imagine mobile */}
         <div className="w-full my-4 md:hidden">
           <Image
+            unoptimized
             width={1991}
             height={2790}
-            src="/hero-img.svg"
+            src="/hero-img.png"
             className="w-full"
           />
         </div>
@@ -166,9 +167,10 @@ const Home_Hero = () => {
       {/* div ilustratie */}
       <div className="hidden md:block w-4/12">
         <Image
+          unoptimized
           width={1991}
           height={2790}
-          src="/hero-img.svg"
+          src="/hero-img.png"
           className="w-full"
         />
       </div>
