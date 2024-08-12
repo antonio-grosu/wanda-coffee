@@ -1,5 +1,11 @@
+import Despre_First_Section from "../components/despre_page/Despre_First_Section";
+
 const Despre = () => {
-  return <div></div>;
+  return (
+    <main>
+      <Despre_First_Section />
+    </main>
+  );
 };
 
 export default Despre;

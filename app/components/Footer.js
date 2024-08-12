@@ -18,27 +18,55 @@ const Footer = () => {
           Strada Doctor Panait Iatropol 29, București 050538
         </p>
       </div>
-      {/* <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
+      <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
+        <h3 className="font-semibold">Navigație</h3>
+        <Link
+          href="/"
+          className="text-sm hover:text-yellow-950 transition-all "
+        >
+          Acasa
+        </Link>
+        <Link
+          href="/produse"
+          className="text-sm hover:text-yellow-950 transition-all "
+        >
+          Produse
+        </Link>
+        <Link
+          href="/despre"
+          className="text-sm hover:text-yellow-950 transition-all "
+        >
+          Despre
+        </Link>
+        <Link
+          href="/locatie"
+          className="text-sm hover:text-yellow-950 transition-all "
+        >
+          Locatie
+        </Link>
+      </div>
+      <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Rețele Sociale</h3>
-        <Link href="/" className="text-sm hover:text-teal-500 transition-all ">
-          Linkedin
+        <Link
+          href="/"
+          className="text-sm hover:text-yellow-950 transition-all "
+        >
+          Facebook
         </Link>
-        <Link href="/" className="text-sm hover:text-teal-500 transition-all ">
-          Twitter
+        <Link
+          href="/"
+          className="text-sm hover:text-yellow-950 transition-all "
+        >
+          Instagram
         </Link>
-      </div> */}
-      {/* <div className="flex flex-col md:mt-0 mt-8 md:items-center  gap-2">
-        <h3 className="font-semibold">Proiectele noastre</h3>
-        <Link href="/" className="text-sm hover:text-teal-500 transition-all ">
-          Web Design
+        <Link
+          href="/"
+          className="text-sm hover:text-yellow-950 transition-all "
+        >
+          Tiktok
         </Link>
-        <Link href="/" className="text-sm hover:text-teal-500 transition-all ">
-          Aplicații Web de succces
-        </Link>
-        <Link href="/" className="text-sm hover:text-teal-500 transition-all ">
-          Aplicații de Management eficiente
-        </Link>
-      </div> */}
+      </div>
+
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Pentru colaborări</h3>
         <Link

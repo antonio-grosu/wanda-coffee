@@ -1,43 +1,48 @@
 import Image from "next/image";
 import Link from "next/link";
-const Home_Third_Section = () => {
+const Despre_First_Section = () => {
   return (
-    <div className="py-12 md:py-60  w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 ">
-      <div className="w-full flex md:flex-row flex-col gap-8 justify-between md:mb-12 ">
-        {/* div text */}
-        <div className="md:w-5/12">
-          <h1 className="font-bold text-yellow-950 text-4xl">
-            Un Colț de Liniște în Inima Orașului
-          </h1>
-          <div className="my-8">
-            <Image
-              src="/locatie_3.png"
-              alt="Poza cafenea"
-              width={800}
-              height={533}
-              className="w-full md:hidden block rounded-sm shadow-md"
-            />
-          </div>
-          <p className="my-8">
-            Wanda te așteaptă într-o locație primitoare, situată chiar în inima
-            orașului. Fie că vrei să te bucuri de o cafea de calitate sau să
-            petreci timp cu cei dragi, cafeneaua noastră este locul perfect
-            pentru a scăpa de agitația cotidiană. Atmosfera caldă și decorul
-            intim te vor face să te simți ca acasă, indiferent de momentul
-            zilei. Te așteptăm să descoperi un spațiu unde timpul parcă se
-            oprește, iar fiecare vizită devine un moment de răsfăț.
-          </p>
-        </div>
-        {/* div locatie */}
-        <div className="w-5/12">
-          <Image
-            src="/locatie_3.png"
-            alt="Poza cafenea"
-            width={800}
-            height={533}
-            className="w-full md:block hidden rounded-sm shadow-md"
-          />
-        </div>
+    <div className="py-36  min-h-screen w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 ">
+      <h1 className="text-4xl mb-12  font-bold text-yellow-950 w-full text-center ">
+        Wanda - Oază de Relaxare într-un Cadru Familial
+      </h1>
+      <div className="md:flex-row flex-col  w-full flex items-center justify-between gap-8 mb-12">
+        <Image
+          src="/locatie_2.png"
+          alt="Poza cafenea"
+          width={800}
+          height={533}
+          className="md:w-5/12 rounded-sm shadow-md"
+        />
+        <p className="md:w-5/12">
+          La Wanda, fiecare detaliu este gândit cu dragoste pentru a-ți oferi o
+          experiență memorabilă, într-un cadru cald și familial. De la aromele
+          delicate ale cafelei, până la muzica liniștită ce completează
+          atmosfera, totul contribuie la crearea unui loc în care te poți relaxa
+          și reîncărca. Indiferent dacă vii pentru o întâlnire rapidă sau pentru
+          a petrece ore întregi în compania prietenilor și familiei, vei găsi
+          mereu un colț confortabil unde să te simți ca acasă.
+        </p>
+      </div>
+      <div className="md:flex-row   flex-col-reverse mt-8 w-full flex items-center justify-between gap-8">
+        <p className="md:w-5/12">
+          {" "}
+          Întreaga noastră echipă, formată din membrii familiei, este dedicată
+          să îți ofere cele mai bune servicii, asigurându-se că fiecare vizită
+          la Wanda este una de neuitat. Ne dorim ca, odată ce ai intrat pe ușă,
+          să te simți binevenit și răsfățat, iar grija noastră pentru tine să se
+          reflecte în fiecare ceașcă de cafea, fiecare preparat savurat și
+          fiecare zâmbet întâmpinat. Te invităm să revii ori de câte ori ai
+          nevoie de o pauză binevenită, într-un loc primitor, în inima orașului
+          nostru.
+        </p>
+        <Image
+          src="/locatie_1.png"
+          alt="Poza cafenea"
+          width={800}
+          height={533}
+          className="md:w-5/12 rounded-sm shadow-md"
+        />
       </div>
       {/* viziteaza-ne */}
       <div>
@@ -111,4 +116,4 @@ const Home_Third_Section = () => {
   );
 };
 
-export default Home_Third_Section;
+export default Despre_First_Section;
