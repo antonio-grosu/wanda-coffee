@@ -15,6 +15,7 @@ const Produse_First_Section = () => {
           <div>
             <Image
               src="https://iili.io/d177rBt.gif"
+              priority
               unoptimized
               className="w-full rounded-2xl  shadow-md"
               width={400}
@@ -24,6 +25,7 @@ const Produse_First_Section = () => {
           </div>
           <div>
             <Image
+              priority
               unoptimized
               src="https://iili.io/d177XB1.gif"
               className="w-full rounded-2xl shadow-md"
@@ -55,6 +57,7 @@ const Produse_First_Section = () => {
         </div>
         <div>
           <Image
+            priority
             src="https://iili.io/d177XB1.gif"
             className="w-full rounded-md shadow-md"
             width={400}

@@ -9,7 +9,7 @@ const Produse_Second_Section = () => {
       <div className="flex md:flex-row flex-col items-start justify-center gap-4 md:w-8/12 mx-auto mt-12">
         <div className="md:w-1/3">
           <Image
-            unoptimized
+            priority
             className="w-full rounded-sm shadow-md  md:mt-24 "
             src="https://iili.io/d175LzB.png"
             width={2400}
@@ -19,7 +19,7 @@ const Produse_Second_Section = () => {
         </div>
         <div className="md:w-1/3">
           <Image
-            unoptimized
+            priority
             className="w-full shadow-sm  "
             src="https://iili.io/d175POQ.png"
             width={2400}
@@ -29,7 +29,7 @@ const Produse_Second_Section = () => {
         </div>
         <div className="md:w-1/3">
           <Image
-            unoptimized
+            priority
             className="w-full rounded-sm shadow-md  md:mt-24 "
             src="https://iili.io/d175ibV.png"
             width={2400}
@@ -41,7 +41,7 @@ const Produse_Second_Section = () => {
       <div className="flex md:flex-row flex-col mt-4 items-start justify-center gap-4 md:w-8/12 mx-auto md:mt-12">
         <div className="md:w-1/3">
           <Image
-            unoptimized
+            priority
             className="w-full rounded-sm shadow-md  "
             src="https://iili.io/d177cdb.png"
             width={2400}
@@ -51,7 +51,7 @@ const Produse_Second_Section = () => {
         </div>
         <div className="md:w-1/3">
           <Image
-            unoptimized
+            priority
             className="w-full rounded-sm shadow-md   md:mt-24 "
             src="https://iili.io/d177GIV.png"
             width={2400}
@@ -61,7 +61,7 @@ const Produse_Second_Section = () => {
         </div>
         <div className="md:w-1/3">
           <Image
-            unoptimized
+            priority
             className="w-full rounded-sm shadow-md   "
             src="https://iili.io/d177MhB.png"
             width={2400}

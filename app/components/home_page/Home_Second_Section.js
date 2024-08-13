@@ -11,7 +11,7 @@ const Home_Second_Section = () => {
         <div className="w-full  text-yellow-950 gap-4  md:flex-row flex-col flex justify-center md:justify-start">
           <div className="md:w-3/12  p-1 ">
             <Image
-              unoptimized
+              priority
               src="https://iili.io/d175mga.png"
               className="object-cover rounded-md shadow-md"
               alt=""
@@ -21,7 +21,7 @@ const Home_Second_Section = () => {
           </div>
           <div className="flex flex-col md:w-5/12 gap-4  justify-between">
             <Image
-              unoptimized
+              priority
               className="w-full rounded-md shadow-md"
               src="https://iili.io/d175Sfe.png"
               alt=""
@@ -29,7 +29,7 @@ const Home_Second_Section = () => {
               height={2200}
             />
             <Image
-              unoptimized
+              priority
               className="w-full rounded-md shadow-md"
               src="https://iili.io/d175QWP.png"
               alt=""

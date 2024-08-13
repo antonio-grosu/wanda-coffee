@@ -12,7 +12,7 @@ const Home_Hero = () => {
         {/* imagine mobile */}
         <div className="w-full my-4 md:hidden">
           <Image
-            unoptimized
+            priority
             width={1991}
             height={2790}
             src="https://iili.io/d177xe4.png"
@@ -167,6 +167,7 @@ const Home_Hero = () => {
       {/* div ilustratie */}
       <div className="hidden md:block w-4/12">
         <Image
+          priority
           width={1991}
           height={2790}
           src="https://iili.io/d177xe4.png"

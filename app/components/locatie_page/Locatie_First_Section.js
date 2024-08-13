@@ -12,7 +12,7 @@ const Locatie_First_Section = () => {
         {/* imagine mobile */}
         <div className="w-full my-4 md:hidden">
           <Image
-            unoptimized
+            priority
             width={1991}
             height={2790}
             src="https://iili.io/d177zml.png"
@@ -209,7 +209,7 @@ const Locatie_First_Section = () => {
       {/* div ilustratie */}
       <div className="hidden md:block w-6/12">
         <Image
-          unoptimized
+          priority
           width={1991}
           height={2790}
           src="https://iili.io/d177zml.png"
