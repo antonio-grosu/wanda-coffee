@@ -3,7 +3,7 @@ import Link from "next/link";
 const Despre_First_Section = () => {
   return (
     <div className="py-36  min-h-screen w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 ">
-      <h1 className="text-4xl mb-12  font-bold text-yellow-950 w-full text-center ">
+      <h1 className="text-4xl slide-in mb-12  font-bold text-yellow-950 w-full text-center ">
         Wanda - Oază de Relaxare într-un Cadru Familial
       </h1>
       <div className="md:flex-row flex-col  w-full flex items-center justify-between gap-8 mb-12">
@@ -12,9 +12,9 @@ const Despre_First_Section = () => {
           alt="Poza cafenea"
           width={800}
           height={533}
-          className="md:w-5/12 rounded-sm shadow-md"
+          className="md:w-5/12 rounded-sm shadow-md slide-left"
         />
-        <p className="md:w-5/12">
+        <p className="md:w-5/12 slide-in">
           La Wanda, fiecare detaliu este gândit cu dragoste pentru a-ți oferi o
           experiență memorabilă, într-un cadru cald și familial. De la aromele
           delicate ale cafelei, până la muzica liniștită ce completează
@@ -25,7 +25,7 @@ const Despre_First_Section = () => {
         </p>
       </div>
       <div className="md:flex-row   flex-col-reverse mt-8 w-full flex items-center justify-between gap-8">
-        <p className="md:w-5/12">
+        <p className="md:w-5/12 slide-in">
           {" "}
           Întreaga noastră echipă, formată din membrii familiei, este dedicată
           să îți ofere cele mai bune servicii, asigurându-se că fiecare vizită
@@ -41,7 +41,7 @@ const Despre_First_Section = () => {
           alt="Poza cafenea"
           width={800}
           height={533}
-          className="md:w-5/12 rounded-sm shadow-md"
+          className="md:w-5/12 slide-right rounded-sm shadow-md"
         />
       </div>
       {/* viziteaza-ne */}

@@ -14,7 +14,7 @@ const Home_Second_Section = () => {
               priority
               src="https://iili.io/d175mga.png"
               className="object-cover rounded-md shadow-md"
-              alt=""
+              alt="Imagine Cafea"
               width={2200}
               height={4600}
             />
@@ -24,7 +24,7 @@ const Home_Second_Section = () => {
               priority
               className="w-full rounded-md shadow-md"
               src="https://iili.io/d175Sfe.png"
-              alt=""
+              alt="Imagine Patiserie"
               width={4096}
               height={2200}
             />
@@ -32,7 +32,7 @@ const Home_Second_Section = () => {
               priority
               className="w-full rounded-md shadow-md"
               src="https://iili.io/d175QWP.png"
-              alt=""
+              alt="Imagine Patiserie"
               width={4096}
               height={2200}
             />

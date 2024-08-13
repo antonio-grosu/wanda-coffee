@@ -5,7 +5,7 @@ const Produse_First_Section = () => {
     <div className="py-36 md:py-12 min-h-screen w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 flex items-center md:flex-row flex-col md:justify-between gap-24">
       {/* div text */}
       <div className="md:w-5/12">
-        <h1 className="text-4xl font-bold text-yellow-950">
+        <h1 className="text-4xl font-bold text-yellow-950 slide-in">
           Delicii Autentice pentru Fiecare Gust
         </h1>
 
@@ -17,7 +17,7 @@ const Produse_First_Section = () => {
               src="https://iili.io/d177rBt.gif"
               priority
               unoptimized
-              className="w-full rounded-2xl  shadow-md"
+              className="w-full rounded-2xl slide-left  shadow-md"
               width={400}
               height={400}
               alt="Video Espresso"
@@ -28,14 +28,14 @@ const Produse_First_Section = () => {
               priority
               unoptimized
               src="https://iili.io/d177XB1.gif"
-              className="w-full rounded-2xl shadow-md"
+              className="w-full rounded-2xl slide-right shadow-md"
               width={400}
               height={400}
               alt="Video Framantare Coca"
             />
           </div>
         </div>
-        <p className="mt-8">
+        <p className="mt-8 slide-in">
           La Wanda, ne mândrim cu o selecție diversificată de produse, fiecare
           pregătit cu atenție și pasiune pentru a-ți oferi o experiență unică.
           De la cafeaua noastră aromată, la produsele de patiserie pregătite în
@@ -49,7 +49,7 @@ const Produse_First_Section = () => {
         <div>
           <Image
             src="https://iili.io/d177rBt.gif"
-            className="w-full rounded-md shadow-md"
+            className="w-full rounded-md shadow-md slide-left"
             width={400}
             height={400}
             alt="Video Espresso"
@@ -59,7 +59,7 @@ const Produse_First_Section = () => {
           <Image
             priority
             src="https://iili.io/d177XB1.gif"
-            className="w-full rounded-md shadow-md"
+            className="w-full rounded-md shadow-md slide-right"
             width={400}
             height={400}
             alt="Video Framantare Coca"

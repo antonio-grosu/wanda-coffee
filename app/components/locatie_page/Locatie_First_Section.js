@@ -6,7 +6,7 @@ const Locatie_First_Section = () => {
       {/* div text */}
 
       <div className="md:w-5/12 text-yellow-950 ">
-        <h1 className="text-3xl md:text-4xl font-bold ">
+        <h1 className="text-3xl md:text-4xl slide-in font-bold ">
           Găsește-ne în Inima Orașului{" "}
         </h1>
         {/* imagine mobile */}
@@ -16,10 +16,10 @@ const Locatie_First_Section = () => {
             width={1991}
             height={2790}
             src="https://iili.io/d177zml.png"
-            className="w-full"
+            className="w-full slide-in"
           />
         </div>
-        <p className="my-8">
+        <p className="my-8 slide-in">
           Wanda te așteaptă într-un loc deosebit, situat strategic în centrul
           orașului, la doar câțiva pași de cele mai vibrante atracții. Cafeneaua
           noastră este un refugiu urban, perfect pentru a te deconecta și a
@@ -29,7 +29,7 @@ const Locatie_First_Section = () => {
         {/* link mobile  */}
         <Link
           href="https://www.google.com/maps/dir//Wanda,+Strada+Doctor+Panait+Iatropol+29,+Bucure%C8%99ti+050538/@44.4317881,25.9951893,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x40b1ff1ad48e644d:0x3ad551da9091ca8!2m2!1d26.071407!2d44.4317881?entry=ttu"
-          className="px-4 py-2  w-full text-center md:hidden inline-flex items-center justify-center gap-2 rounded-lg hover:rounded-2xl transition-all bg-orange-500 text-white"
+          className="px-4 py-2 slide-in  w-full text-center md:hidden inline-flex items-center justify-center gap-2 rounded-lg hover:rounded-2xl transition-all bg-orange-500 text-white"
         >
           <svg
             className="w-6 h-6 text-white"
@@ -50,7 +50,7 @@ const Locatie_First_Section = () => {
         </Link>
         <Link
           href="https://waze.com/ul?q=Strada%20Doctor%20Panait%20Iatropol%2029%2C%20Bucure%C8%99ti%20050538&ll=44.4317919,26.0688321&navigate=yes"
-          className=" mt-2 px-4 py-2  w-full text-center md:hidden inline-flex items-center justify-center gap-2 rounded-lg hover:rounded-2xl transition-all bg-sky-500 text-white"
+          className=" mt-2 px-4 slide-in py-2  w-full text-center md:hidden inline-flex items-center justify-center gap-2 rounded-lg hover:rounded-2xl transition-all bg-sky-500 text-white"
         >
           <svg
             className="w-6 h-6 text-white"
@@ -72,7 +72,7 @@ const Locatie_First_Section = () => {
         {/* link desktop */}
         <Link
           href="https://www.google.com/maps/dir//Wanda,+Strada+Doctor+Panait+Iatropol+29,+Bucure%C8%99ti+050538/@44.4317881,25.9951893,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x40b1ff1ad48e644d:0x3ad551da9091ca8!2m2!1d26.071407!2d44.4317881?entry=ttu"
-          className="px-4 py-2    hidden md:inline-flex items-center justify-start gap-2 rounded-lg hover:rounded-2xl transition-all bg-orange-500 text-white"
+          className="px-4 py-2 slide-in   hidden md:inline-flex items-center justify-start gap-2 rounded-lg hover:rounded-2xl transition-all bg-orange-500 text-white"
         >
           <svg
             className="w-6 h-6 text-white"
@@ -93,7 +93,7 @@ const Locatie_First_Section = () => {
         </Link>
         <Link
           href="https://waze.com/ul?q=Strada%20Doctor%20Panait%20Iatropol%2029%2C%20Bucure%C8%99ti%20050538&ll=44.4317919,26.0688321&navigate=yes"
-          className="px-4 py-2 ml-2   hidden md:inline-flex items-center justify-start gap-2 rounded-lg hover:rounded-2xl transition-all bg-blue-500 text-white"
+          className="px-4 py-2 ml-2 slide-in  hidden md:inline-flex items-center justify-start gap-2 rounded-lg hover:rounded-2xl transition-all bg-blue-500 text-white"
         >
           <svg
             className="w-6 h-6 text-white"
@@ -112,7 +112,7 @@ const Locatie_First_Section = () => {
           </svg>
           Waze
         </Link>
-        <div className="mt-8 md:mt-24 border-t-2  border-gray-300/10 pt-4  text-yellow-950/50 flex items-center justify-start gap-2">
+        <div className="mt-8 md:mt-24 slide-in border-t-2  border-gray-300/10 pt-4  text-yellow-950/50 flex items-center justify-start gap-2">
           <svg
             className="w-6 h-6  "
             aria-hidden="true"
@@ -130,7 +130,7 @@ const Locatie_First_Section = () => {
           </svg>
           <p>Strada Doctor Panait Iatropol 29, București 050538</p>
         </div>
-        <div className="mt-4  text-yellow-950 flex items-center justify-start gap-2">
+        <div className="mt-4 slide-in text-yellow-950 flex items-center justify-start gap-2">
           <p className="flex items-center justify-center gap-1 font-semibold">
             4.9
             <svg
@@ -209,11 +209,12 @@ const Locatie_First_Section = () => {
       {/* div ilustratie */}
       <div className="hidden md:block w-6/12">
         <Image
+          alt="Imagine Cafenea"
           priority
           width={1991}
           height={2790}
           src="https://iili.io/d177zml.png"
-          className="w-full rounded-sm shadow-md"
+          className="w-full rounded-sm shadow-md slide-left"
         />
       </div>
     </div>

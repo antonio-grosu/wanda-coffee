@@ -10,19 +10,19 @@ const Produse_Third_Section = () => {
         Descoperă Meniul Nostru: Răsfăț pentru Toate Gusturile
       </h1>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-12">
-        {/* bauturi calde */}
+        {/* băuturi calde */}
         <div className="mt-12">
           <h3 className="text-lg font-bold text-yellow-950">
-            Bauturi Calde Italian Blend | Decof / Specialities
+            Băuturi Calde Italian Blend | Decof / Specialități
           </h3>
           <Produs
             nume="Espresso / Ristretto"
-            descriere="7gr Cafea, 30ml Apa / 7gr Cafea, 15ml Apa"
+            descriere="7gr Cafea, 30ml Apă / 7gr Cafea, 15ml Apă"
             pret="8 | 10"
           />
           <Produs
             nume="Doppio"
-            descriere="14gr Cafea, 40ml Apa / 14gr Cafea, 60ml Apa"
+            descriere="14gr Cafea, 40ml Apă / 14gr Cafea, 60ml Apă"
             pret="12 | 15"
           />
           <Produs
@@ -30,7 +30,7 @@ const Produse_Third_Section = () => {
             descriere="Espresso, 15ml Lapte / Espresso, 30ml Lapte"
             pret="10 | 12"
           />
-          <Produs nume="Con Panna " descriere="Espresso, Frisca" pret="10" />
+          <Produs nume="Con Panna " descriere="Espresso, Frișcă" pret="10" />
           <Produs
             nume="Cappuccino / Cappuccino Freddo "
             descriere="Espresso, 90ml Lapte Cald / Espresso 90ml Lapte Rece"
@@ -39,17 +39,17 @@ const Produse_Third_Section = () => {
           <Produs nume="Latte" descriere="Espresso, Lapte" pret="14 | 16" />
           <Produs
             nume="Latte Arome"
-            descriere="Latte, Ciocolata Calda, Oreo / Bounty / Mars / Snickers / Kitkat "
+            descriere="Latte, Ciocolată Caldă, Oreo / Bounty / Mars / Snickers / Kitkat "
             pret="20"
           />
           <Produs
             nume="Flat White / Mocha"
-            descriere="Dopio, Late / Dopio, Late, sos Ciocolata"
+            descriere="Doppio, Latte / Doppio, Latte, Sos Ciocolată"
             pret="14/16/18"
           />
           <Produs
-            nume="Americano Single / Double shot"
-            descriere="Espresso, 90ml Apa / Dopio, 90ml Apa"
+            nume="Americano Single / Double Shot"
+            descriere="Espresso, 90ml Apă / Doppio, 90ml Apă"
             pret="9/12"
           />
 
@@ -60,18 +60,18 @@ const Produse_Third_Section = () => {
             pret="10"
           />
 
-          <Produs nume="Ciocolata Calda" pret="12" />
-          <Produs nume="Ciocolata Calda cu Frisca" pret="15" />
+          <Produs nume="Ciocolată Caldă" pret="12" />
+          <Produs nume="Ciocolată Caldă cu Frișcă" pret="15" />
           <Produs nume="Chai Latte" pret="20" />
           <Produs nume="Lapte Vegan" pret="3" />
           <Produs nume="Arome" pret="3" />
         </div>
-        {/* bauturi reci */}
+        {/* băuturi reci */}
         <div className="mt-12">
-          <h3 className="text-lg font-bold text-yellow-950">Bauturi Reci</h3>
+          <h3 className="text-lg font-bold text-yellow-950">Băuturi Reci</h3>
           <Produs
             nume="Frappe"
-            descriere="Dopio, Lapte, Inghetata, Frisca, Gheata"
+            descriere="Doppio, Lapte, Înghețată, Frișcă, Gheață"
             pret="20"
           />
           <Produs
@@ -79,113 +79,112 @@ const Produse_Third_Section = () => {
             descriere="Oreo / Bounty / Mars / Snickers / Kitkat"
             pret="25"
           />
-          <Produs nume="Limonada" pret="20" />
-          <Produs nume="Limonada cu Arome" pret="25" />
+          <Produs nume="Limonadă" pret="20" />
+          <Produs nume="Limonadă cu Arome" pret="25" />
           <Produs nume="Fresh" pret="20" />
-          <Produs nume="Sirop Zmeura / Visine / Soc" pret="10" />
+          <Produs nume="Sirop Zmeură / Vișine / Soc" pret="10" />
           <Produs nume="Pepsi / Mirinda / 7Up / Prigat" pret="10" />
           <Produs nume="Rockstar Energizant" pret="10" />
-          <Produs nume="Apa Plata / Minerala 330ml" pret="8" />
-          <Produs nume="Apa Plata / Minerala 750ml" pret="12" />
+          <Produs nume="Apă Plată / Minerală 330ml" pret="8" />
+          <Produs nume="Apă Plată / Minerală 750ml" pret="12" />
         </div>
         {/* mic dejun */}
         <div className="mt-12">
           <h3 className="text-lg font-bold text-yellow-950">Mic Dejun</h3>
-          <Produs nume="Sendvis cu sunca si cascaval" pret="10" />
-          <Produs nume="Oua ochiuri" pret="15" />
-          <Produs nume="Oua ochiuri WANDA, sunca, cascaval" pret="20" />
-          <Produs nume="Omleta WANDA, sunca, cascaval" pret="20" />
-          <Produs nume="Omleta Simpla" pret="15" />
-          <Produs nume="Croissant cu Ciocolata" pret="8" />
+          <Produs nume="Sandviș cu șuncă și cașcaval" pret="10" />
+          <Produs nume="Ouă ochiuri" pret="15" />
+          <Produs nume="Ouă ochiuri WANDA, șuncă, cașcaval" pret="20" />
+          <Produs nume="Omletă WANDA, șuncă, cașcaval" pret="20" />
+          <Produs nume="Omletă Simplă" pret="15" />
+          <Produs nume="Croissant cu Ciocolată" pret="8" />
           <Produs nume="Croissant cu Unt" pret="6" />
-          <Produs nume="Croissant cu Unt, sunca si cascaval" pret="10" />
+          <Produs nume="Croissant cu Unt, șuncă și cașcaval" pret="10" />
         </div>
-        {/* prajituri de casa */}
+        {/* prăjituri de casă */}
         <div className="mt-12">
           <h3 className="text-lg font-bold text-yellow-950">
-            Prajituri de Casa
+            Prăjituri de Casă
           </h3>
           <Produs nume="Tiramisu" descriere="140 gr" pret="18" />
           <Produs nume="Creme a la creme" descriere="140 gr" pret="18" />
           <Produs nume="Chec" descriere="100 gr" pret="8" />
           <Produs
-            nume="Placinta cu branza sarata / dulce"
+            nume="Plăcintă cu brânză sărată / dulce"
             descriere="100 gr"
             pret="8"
           />
-          <Produs nume="Rulada Pavlova" descriere="140 gr" pret="20" />
+          <Produs nume="Ruladă Pavlova" descriere="140 gr" pret="20" />
           <Produs nume="Tortul casei" descriere="100 gr" pret="12" />
         </div>
-        {/* cocktail */}
+        {/* cocktailuri */}
         <div className="mt-12">
-          <h3 className="text-lg font-bold text-yellow-950">Cocktails</h3>
+          <h3 className="text-lg font-bold text-yellow-950">Cocktailuri</h3>
           <Produs
             nume="Mojito"
-            descriere="350 ml | Rom alb, Zahar brun, Menta, Apa minerala, Gheata"
+            descriere="350 ml | Rom alb, Zahăr brun, Mentă, Apă minerală, Gheață"
             pret="30"
           />
           <Produs
             nume="Dark Mojito"
-            descriere="350 ml | Rom negru, Zahar brun, Menta, Apa Minerala, Gheata"
+            descriere="350 ml | Rom negru, Zahăr brun, Mentă, Apă Minerală, Gheață"
             pret="30"
           />
           <Produs
             nume="Hugo"
-            descriere="350 ml | Prosecco, Apa Minerala, sirop Monin cu aroma de soc, Lime, Menta, Gheata"
+            descriere="350 ml | Prosecco, Apă Minerală, Sirop Monin cu Aromă de Soc, Lime, Mentă, Gheață"
             pret="30"
           />
           <Produs
             nume="Cuba Libre"
-            descriere="350 ml | Rom, Pepsi, Lime, Gheata"
+            descriere="350 ml | Rom, Pepsi, Lime, Gheață"
             pret="30"
           />
           <Produs
             nume="Aperol Spritz"
-            descriere="350 ml | Aperol, Prosecco, Portocala, Apa Minerala, Gheata"
+            descriere="350 ml | Aperol, Prosecco, Portocală, Apă Minerală, Gheață"
             pret="30"
           />
           <Produs
             nume="Campari Spritz"
-            descriere="350 ml | Campari, Prosecco, Portocala, Apa Minerala, Gheata"
+            descriere="350 ml | Campari, Prosecco, Portocală, Apă Minerală, Gheață"
             pret="30"
           />
           <Produs
             nume="Campari Orange"
-            descriere="350 ml | Campari, suc de Portocale, Portocala, Gheata"
+            descriere="350 ml | Campari, Suc de Portocale, Portocală, Gheață"
             pret="30"
           />
           <Produs
             nume="Gin Tonic"
-            descriere="350 ml | Gin, Apa Tonica, Lime, Gheata"
+            descriere="350 ml | Gin, Apă Tonică, Lime, Gheață"
             pret="30"
           />
           <Produs
-            nume="Jager & Pepsi"
-            descriere="350 ml | Jagermeister, Pepsi, Portocala, Gheata"
+            nume="Jäger & Pepsi"
+            descriere="350 ml | Jägermeister, Pepsi, Portocală, Gheață"
             pret="30"
           />
           <Produs
-            nume="Jager Tonic"
-            descriere="350 ml | Jagermeister, Apa Tonica, Lime, Gheata"
+            nume="Jäger Tonic"
+            descriere="350 ml | Jägermeister, Apă Tonică, Lime, Gheață"
             pret="30"
           />
         </div>
         {/* vin  */}
         <div className="mt-12">
           <h3 className="text-lg font-bold text-yellow-950">Vin</h3>
-          <Produs nume="Alb / Rosu / Rose " descriere="750 ml" pret="100" />
+          <Produs nume="Alb / Roșu / Rose " descriere="750 ml" pret="100" />
           <Produs nume="Pahar " descriere="150 ml" pret="20" />
           <Produs nume="Prosecco" descriere="150 ml" pret="25" />
         </div>
         {/* bere */}
         <div className="mt-12">
           <h3 className="text-lg font-bold text-yellow-950">Bere</h3>
-          <Produs nume="Csikisor Bere Blonda" descriere="500 ml" pret="15" />
-          <Produs nume="Birra Morretti " descriere="330 ml" pret="13" />
+          <Produs nume="Csíkișör Bere Blondă" descriere="500 ml" pret="15" />
+          <Produs nume="Birra Moretti " descriere="330 ml" pret="13" />
           <Produs nume="Heineken" descriere="330 ml" pret="15" />
         </div>
-        {/* whiskey and more
-         */}
+        {/* whiskey and more */}
         <div className="mt-12">
           <h3 className="text-lg font-bold text-yellow-950">
             Whiskey and More
@@ -195,9 +194,10 @@ const Produse_Third_Section = () => {
           <Produs nume="Vodka" descriere="40 ml" pret="15" />
           <Produs nume="Tequila" descriere="40 ml" pret="15" />
           <Produs nume="Whiskey" descriere="40 ml" pret="15" />
-          <Produs nume="Jagermeister" descriere="40 ml" pret="15" />
+          <Produs nume="Jägermeister" descriere="40 ml" pret="15" />
         </div>
       </div>
+
       {/* viziteaza-ne */}
       <div>
         <h1 className="font-bold text-yellow-950 text-4xl mt-12">

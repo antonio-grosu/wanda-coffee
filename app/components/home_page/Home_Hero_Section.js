@@ -6,7 +6,7 @@ const Home_Hero = () => {
       {/* div text */}
 
       <div className="md:w-5/12 text-yellow-950 ">
-        <h1 className="text-3xl md:text-4xl font-bold ">
+        <h1 className="text-3xl md:text-4xl font-bold slide-in ">
           Locul Unde Cafeaua și Pasiunea se Întâlnesc
         </h1>
         {/* imagine mobile */}
@@ -16,10 +16,11 @@ const Home_Hero = () => {
             width={1991}
             height={2790}
             src="https://iili.io/d177xe4.png"
-            className="w-full"
+            className="w-full slide-in"
+            alt="Imagine Hero"
           />
         </div>
-        <p className="my-8">
+        <p className="my-8 slide-in">
           Descoperă magia unei cafenele de familie, unde fiecare ceașcă de cafea
           este pregătită cu dragoste și grijă. La Wanda, te așteptăm cu aromele
           intense ale cafelei proaspăt prăjite, deserturi delicioase făcute în
@@ -28,8 +29,8 @@ const Home_Hero = () => {
 
         {/* link mobile  */}
         <Link
-          href="/locatie"
-          className="px-4 py-2  w-full text-center md:hidden inline-flex items-center justify-center gap-2 rounded-lg hover:rounded-2xl transition-all bg-orange-500 text-white"
+          href="/produse"
+          className="px-4 py-2 slide-in  w-full text-center md:hidden inline-flex items-center justify-center gap-2 rounded-lg hover:rounded-2xl transition-all bg-orange-500 text-white"
         >
           <svg
             className="w-6 h-6 text-white"
@@ -51,7 +52,7 @@ const Home_Hero = () => {
         {/* link desktop */}
         <Link
           href="/locatie"
-          className="px-4 py-2    hidden md:inline-flex items-center justify-start gap-2 rounded-lg hover:rounded-2xl transition-all bg-orange-500 text-white"
+          className="px-4 py-2 slide-left    hidden md:inline-flex items-center justify-start gap-2 rounded-lg hover:rounded-2xl transition-all bg-orange-500 text-white"
         >
           <svg
             className="w-6 h-6 text-white"
@@ -70,7 +71,7 @@ const Home_Hero = () => {
           </svg>
           Descoperă Meniul Nostru
         </Link>
-        <div className="mt-8 md:mt-24 border-t-2  border-gray-300/10 pt-4  text-yellow-950/50 flex items-center justify-start gap-2">
+        <div className="mt-8 slide-in md:mt-24 border-t-2  border-gray-300/10 pt-4  text-yellow-950/50 flex items-center justify-start gap-2">
           <svg
             className="w-6 h-6  "
             aria-hidden="true"
@@ -88,7 +89,7 @@ const Home_Hero = () => {
           </svg>
           <p>Strada Doctor Panait Iatropol 29, București 050538</p>
         </div>
-        <div className="mt-4  text-yellow-950 flex items-center justify-start gap-2">
+        <div className="mt-4 slide-in  text-yellow-950 flex items-center justify-start gap-2">
           <p className="flex items-center justify-center gap-1 font-semibold">
             4.9
             <svg
@@ -167,11 +168,12 @@ const Home_Hero = () => {
       {/* div ilustratie */}
       <div className="hidden md:block w-4/12">
         <Image
+          alt="Imagine Hero"
           priority
           width={1991}
           height={2790}
           src="https://iili.io/d177xe4.png"
-          className="w-full"
+          className="w-full slide-right"
         />
       </div>
     </div>
