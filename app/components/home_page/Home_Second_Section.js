@@ -12,7 +12,7 @@ const Home_Second_Section = () => {
           <div className="md:w-3/12  p-1 ">
             <Image
               unoptimized
-              src="/grid-portrait.png"
+              src="https://iili.io/d175mga.png"
               className="object-cover rounded-md shadow-md"
               alt=""
               width={2200}
@@ -23,7 +23,7 @@ const Home_Second_Section = () => {
             <Image
               unoptimized
               className="w-full rounded-md shadow-md"
-              src="/grid-l-1.png"
+              src="https://iili.io/d175Sfe.png"
               alt=""
               width={4096}
               height={2200}
@@ -31,7 +31,7 @@ const Home_Second_Section = () => {
             <Image
               unoptimized
               className="w-full rounded-md shadow-md"
-              src="/grid-l-2.png"
+              src="https://iili.io/d175QWP.png"
               alt=""
               width={4096}
               height={2200}

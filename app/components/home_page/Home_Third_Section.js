@@ -31,7 +31,7 @@ const Home_Third_Section = () => {
         {/* div locatie */}
         <div className="w-5/12">
           <Image
-            src="/locatie_3.png"
+            src="https://iili.io/d177zml.png"
             alt="Poza cafenea"
             width={800}
             height={533}

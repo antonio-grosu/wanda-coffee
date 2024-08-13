@@ -15,7 +15,7 @@ const Home_Hero = () => {
             unoptimized
             width={1991}
             height={2790}
-            src="/hero-img.png"
+            src="https://iili.io/d177xe4.png"
             className="w-full"
           />
         </div>
@@ -167,10 +167,9 @@ const Home_Hero = () => {
       {/* div ilustratie */}
       <div className="hidden md:block w-4/12">
         <Image
-          unoptimized
           width={1991}
           height={2790}
-          src="/hero-img.png"
+          src="https://iili.io/d177xe4.png"
           className="w-full"
         />
       </div>

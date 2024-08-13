@@ -14,7 +14,7 @@ const Produse_First_Section = () => {
         <div className="md:hidden mt-8  flex itesm-center justify-between gap-4">
           <div>
             <Image
-              src="/espresso.gif"
+              src="https://iili.io/d177rBt.gif"
               unoptimized
               className="w-full rounded-2xl  shadow-md"
               width={400}
@@ -25,7 +25,7 @@ const Produse_First_Section = () => {
           <div>
             <Image
               unoptimized
-              src="/coca.gif"
+              src="https://iili.io/d177XB1.gif"
               className="w-full rounded-2xl shadow-md"
               width={400}
               height={400}
@@ -46,7 +46,7 @@ const Produse_First_Section = () => {
       <div className="md:w-5/12 hidden md:flex itesm-center justify-center gap-4">
         <div>
           <Image
-            src="/espresso.gif"
+            src="https://iili.io/d177rBt.gif"
             className="w-full rounded-md shadow-md"
             width={400}
             height={400}
@@ -55,7 +55,7 @@ const Produse_First_Section = () => {
         </div>
         <div>
           <Image
-            src="/coca.gif"
+            src="https://iili.io/d177XB1.gif"
             className="w-full rounded-md shadow-md"
             width={400}
             height={400}

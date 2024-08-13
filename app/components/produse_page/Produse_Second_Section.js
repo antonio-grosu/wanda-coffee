@@ -11,7 +11,7 @@ const Produse_Second_Section = () => {
           <Image
             unoptimized
             className="w-full rounded-sm shadow-md  md:mt-24 "
-            src="/cafea_1.png"
+            src="https://iili.io/d175LzB.png"
             width={2400}
             height={3400}
             alt="Croissant si Placinta"
@@ -21,7 +21,7 @@ const Produse_Second_Section = () => {
           <Image
             unoptimized
             className="w-full shadow-sm  "
-            src="/cafea_2.png"
+            src="https://iili.io/d175POQ.png"
             width={2400}
             height={3400}
             alt="Croissant si Cafea"
@@ -31,7 +31,7 @@ const Produse_Second_Section = () => {
           <Image
             unoptimized
             className="w-full rounded-sm shadow-md  md:mt-24 "
-            src="/cafea_3.png"
+            src="https://iili.io/d175ibV.png"
             width={2400}
             height={3400}
             alt="Cafea"
@@ -43,7 +43,7 @@ const Produse_Second_Section = () => {
           <Image
             unoptimized
             className="w-full rounded-sm shadow-md  "
-            src="/patiserie_1.png"
+            src="https://iili.io/d177cdb.png"
             width={2400}
             height={3400}
             alt="Croissant si Placinta"
@@ -53,7 +53,7 @@ const Produse_Second_Section = () => {
           <Image
             unoptimized
             className="w-full rounded-sm shadow-md   md:mt-24 "
-            src="/patiserie_2.png"
+            src="https://iili.io/d177GIV.png"
             width={2400}
             height={3400}
             alt="Croissant si Cafea"
@@ -63,7 +63,7 @@ const Produse_Second_Section = () => {
           <Image
             unoptimized
             className="w-full rounded-sm shadow-md   "
-            src="/patiserie_3.png"
+            src="https://iili.io/d177MhB.png"
             width={2400}
             height={3400}
             alt="Placinta"

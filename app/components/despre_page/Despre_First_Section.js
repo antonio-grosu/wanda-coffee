@@ -8,7 +8,7 @@ const Despre_First_Section = () => {
       </h1>
       <div className="md:flex-row flex-col  w-full flex items-center justify-between gap-8 mb-12">
         <Image
-          src="/locatie_2.png"
+          src="https://iili.io/d177q1n.png"
           alt="Poza cafenea"
           width={800}
           height={533}
@@ -37,7 +37,7 @@ const Despre_First_Section = () => {
           nostru.
         </p>
         <Image
-          src="/locatie_1.png"
+          src="https://iili.io/d177Fst.png"
           alt="Poza cafenea"
           width={800}
           height={533}

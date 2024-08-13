@@ -15,7 +15,7 @@ const Locatie_First_Section = () => {
             unoptimized
             width={1991}
             height={2790}
-            src="/locatie_3.png"
+            src="https://iili.io/d177zml.png"
             className="w-full"
           />
         </div>
@@ -212,7 +212,7 @@ const Locatie_First_Section = () => {
           unoptimized
           width={1991}
           height={2790}
-          src="/locatie_3.png"
+          src="https://iili.io/d177zml.png"
           className="w-full rounded-sm shadow-md"
         />
       </div>
