@@ -276,7 +276,7 @@ const Produs = (props) => {
     <div className="mt-4">
       <p className="text-yellow-950 flex md:w-10/12 justify-between">
         <span> {nume}</span>
-        <span className="font-bold text-sm text-end">{pret} RON</span>
+        {/* <span className="font-bold text-sm text-end">{pret} RON</span> */}
       </p>
       <p className="text-xs text-yellow-950/50">{descriere}</p>
     </div>
