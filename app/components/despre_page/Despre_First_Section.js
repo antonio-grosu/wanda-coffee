@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 const Despre_First_Section = () => {
   return (
-    <div className="py-36  min-h-screen w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 ">
+    <div className=" py-36  min-h-screen w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 ">
       <h1 className="text-4xl slide-in mb-12  font-bold text-yellow-950 w-full text-center ">
         Wanda - Oază de Relaxare într-un Cadru Familial
       </h1>
-      <div className="md:flex-row flex-col  w-full flex items-center justify-between gap-8 mb-12">
+      <div className="z-0 md:flex-row flex-col  w-full flex items-center justify-between gap-8 mb-12">
         <Image
           src="https://iili.io/d177q1n.png"
           alt="Poza cafenea"
@@ -24,7 +24,7 @@ const Despre_First_Section = () => {
           mereu un colț confortabil unde să te simți ca acasă.
         </p>
       </div>
-      <div className="md:flex-row   flex-col-reverse mt-8 w-full flex items-center justify-between gap-8">
+      <div className="z-0 md:flex-row   flex-col-reverse mt-8 w-full flex items-center justify-between gap-8">
         <p className="md:w-5/12 slide-in">
           {" "}
           Întreaga noastră echipă, formată din membrii familiei, este dedicată

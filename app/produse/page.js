@@ -3,7 +3,7 @@ import Produse_Second_Section from "../components/produse_page/Produse_Second_Se
 import Produse_Third_Section from "../components/produse_page/Produse_Third_Section";
 const Produse = () => {
   return (
-    <main>
+    <main className="z-0">
       <Produse_First_Section />
       <Produse_Second_Section />
       <Produse_Third_Section />

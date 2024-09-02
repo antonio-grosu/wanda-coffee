@@ -13,7 +13,7 @@ const Navbar = () => {
     }
   }, [menu]);
   return (
-    <nav className="">
+    <nav className="z-20">
       <div className=" text-yellow-950 bg-orange-50 fixed w-full top-0 px-4 md:px-8 lg:px-12 py-2 md:py-3  flex items-center justify-between lg:justify-center gap-8 shadow-sm  ">
         <Link href="/" className="hidden lg:block">
           Acasa

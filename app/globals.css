@@ -15,19 +15,16 @@
 .slide-in {
   animation-name: slideUp;
   animation-duration: 1s;
-  z-index: 0;
   animation-timing-function: ease-in-out;
 }
 .slide-left {
   animation-name: slideLeft;
   animation-duration: 1s;
-  z-index: 0;
   animation-timing-function: ease-in-out;
 }
 .slide-right {
   animation-name: slideRight;
   animation-duration: 1s;
-  z-index: 0;
   animation-timing-function: ease-in-out;
 }
 @keyframes slideUp {

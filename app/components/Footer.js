@@ -17,6 +17,20 @@ const Footer = () => {
         <p className="text-sm mt-4 text-black/50">
           Strada Doctor Panait Iatropol 29, București 050538
         </p>
+        {/* blooming solutions mark */}
+        <Link
+          href="https://blooming-solutions.ro"
+          className="mt-8 w-full flex items-center justify-start gap-2"
+        >
+          <Image
+            priority
+            className="w-1/12"
+            src="/Blooming_Solutions_Logo.png"
+            width={400}
+            height={400}
+          ></Image>
+          <p className="font-semibold text-sm">Powered by Blooming Solutions</p>
+        </Link>
       </div>
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Navigație</h3>
