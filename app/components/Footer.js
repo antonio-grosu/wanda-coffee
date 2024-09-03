@@ -62,19 +62,19 @@ const Footer = () => {
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Rețele Sociale</h3>
         <Link
-          href="/"
+          href="https://www.facebook.com/p/Wanda-Coffee-and-joy-100083211436695/?_rdr"
           className="text-sm hover:text-yellow-950 transition-all "
         >
           Facebook
         </Link>
         <Link
-          href="/"
+          href="https://www.instagram.com/wandacoffeeandjoy?igsh=ejkzaGtobG9xdmZv"
           className="text-sm hover:text-yellow-950 transition-all "
         >
           Instagram
         </Link>
         <Link
-          href="/"
+          href="https://www.tiktok.com/@wanda.coffee.and.joy"
           className="text-sm hover:text-yellow-950 transition-all "
         >
           Tiktok
@@ -84,10 +84,10 @@ const Footer = () => {
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Pentru colaborări</h3>
         <Link
-          href="mailto:contact@blooming-solutions.ro?subject=Colaborare&body=Buna%20ziua%20"
+          href="mailto:wandacoffeeandjoy@gmail.com?subject=Colaborare"
           className="text-sm hover:text-yellow-950 transition-all "
         >
-          contact@wanda-coffee.ro
+          wandacoffeeandjoy@gmail.com
         </Link>
       </div>
     </footer>

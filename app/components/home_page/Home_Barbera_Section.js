@@ -15,6 +15,7 @@ const Home_Barbera_Section = () => {
             width={450}
             height={450}
             src="/barbera-principal.png"
+            alt="Barbera Poza Principala"
           ></Image>
           <p className="mt-8 text-yellow-950">
             Vino să experimentezi tradiția și măiestria italiană în fiecare
@@ -29,6 +30,7 @@ const Home_Barbera_Section = () => {
             width={450}
             height={450}
             src="/barbera-principal.png"
+            alt="Poza principala Barbera"
           ></Image>
         </div>
       </div>
@@ -54,6 +56,7 @@ const Home_Barbera_Section = () => {
             width={450}
             height={450}
             src="/barbera-second.png"
+            alt="Poza Barbera Secundara"
           ></Image>
         </div>
       </div>
