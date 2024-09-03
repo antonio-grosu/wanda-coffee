@@ -51,7 +51,7 @@ const Home_Hero = () => {
         </Link>
         {/* link desktop */}
         <Link
-          href="/locatie"
+          href="/produse"
           className="px-4 py-2 slide-left    hidden md:inline-flex items-center justify-start gap-2 rounded-lg hover:rounded-2xl transition-all bg-orange-500 text-white"
         >
           <svg
